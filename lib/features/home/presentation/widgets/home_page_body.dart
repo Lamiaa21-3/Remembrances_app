@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:qoraan_app/cora/utilites/colors_app.dart';
+
 import 'package:qoraan_app/cora/utilites/styles_app.dart';
+
 
 import 'home_page_custom_row_words.dart';
 import 'home_page_custom_timing_container.dart';
@@ -19,23 +20,27 @@ class HomePageBody extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
-            Text(
+            const Text(
               'الأحد ربيع الأول 1445',
               style: StylesApp.style18Weight600DarkGreen,
             ),
 
-            SizedBox(height: 10,),
+            const SizedBox(height: 10,),
             Image.asset('assets/images/Prayer.png'),
-            SizedBox(height: 10,),
-            HomePageCustomTimingContainer(),
-            SizedBox(height: 10,),
-            Text(
+            const SizedBox(height: 10,),
+            const HomePageCustomTimingContainer(),
+            const SizedBox(height: 10,),
+            // Text(
+            //   S.of(context).gregoriandate,
+            //   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
+            // ),
+            const Text(
               'منوعات دينية',
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
             ),
-            HomePageListViewContainer(),
-            HomePageCustomRowWords(),
-            HomePageListViewViedo(),
+            const HomePageListViewContainer(),
+            const HomePageCustomRowWords(),
+            const HomePageListViewViedo(),
           ],
         ),
       ),
@@ -63,7 +68,7 @@ class HomePageListViewViedo extends StatelessWidget {
           ]);
         },
         separatorBuilder: (BuildContext context, int index) {
-          return SizedBox(
+          return const SizedBox(
             width: 14,
           );
         },

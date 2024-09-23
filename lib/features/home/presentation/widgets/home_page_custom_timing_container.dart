@@ -17,7 +17,7 @@ class HomePageCustomTimingContainer extends StatelessWidget {
       child: Row(
         children: [
           Image.asset('assets/images/qotas.png',height: 158,fit: BoxFit.fill,),
-          Column(
+          const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
@@ -36,7 +36,7 @@ class HomePageCustomTimingContainer extends StatelessWidget {
               ),
       
               Padding(
-                padding: const EdgeInsets.only(right: 99.0),
+                padding: EdgeInsets.only(right: 99.0),
                 child: Text(
                   'م ',
                   style: TextStyle(

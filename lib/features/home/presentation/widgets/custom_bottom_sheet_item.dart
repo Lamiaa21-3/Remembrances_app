@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:qoraan_app/features/home/presentation/home_page.dart';
 
-import '../../../../generated/l10n.dart';
+
 import 'custom_container_bottom_sheet.dart';
 
 class CustomerBottomSheetItem extends StatelessWidget {
@@ -13,27 +13,15 @@ class CustomerBottomSheetItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Container(
+      child: SizedBox(
         width: double.infinity,
         // decoration: BoxDecoration(color: Colors.blue),
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 80,
             ),
-            InkWell(
-              onTap: () {
-                // context.push(SoloQuizePage());
-              },
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: CustomerBottomSheetContainer(
-                  containercolor: Color(0xffB5A7FF),
-                  text1: S.of(context).individual,
-                  image: 'AssetsData.student',
-                ),
-              ),
-            ),
+          
             const SizedBox(
               height: 12,
             ),
@@ -41,14 +29,14 @@ class CustomerBottomSheetItem extends StatelessWidget {
               onTap: () {
                 Navigator.of(context)
                     .push(MaterialPageRoute(builder: (context) {
-                  return HomePage();
+                  return const HomePage();
                 }));
               },
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: CustomerBottomSheetContainer(
                   containercolor: Color(0xff6AC38D),
-                  text1: S.of(context).train,
+                  text1:' S.of(context).train',
                   image: 'AssetsData.student',
                 ),
               ),
@@ -58,23 +46,23 @@ class CustomerBottomSheetItem extends StatelessWidget {
             ),
             InkWell(
               onTap: () {},
-              child: CustomerBottomSheetContainer(
+              child: const CustomerBottomSheetContainer(
                 containercolor: Color(0xffFFA4F2),
-                text1: S.of(context).against,
+                text1:' S.of(context).against',
                 image: "assets/svg/oneone.png",
                 //text2: S.of(context).against,
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 12,
             ),
             InkWell(
               onTap: () {},
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: CustomerBottomSheetContainer(
                     containercolor: Color(0xffBC4A26),
-                    text1: S.of(context).group,
+                    text1: 'S.of(context).group',
                     image: "assets/svg/group.png"
                     //text2: S.of(context).against,
                     ),

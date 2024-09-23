@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../cora/utilites/colors_app.dart';
-import 'home_page_body.dart';
+
 import 'home_page_ietm_container.dart';
 
 class HomePageListViewContainer extends StatelessWidget {
@@ -13,7 +13,7 @@ class HomePageListViewContainer extends StatelessWidget {
       height: 160,
       child: ListView(
         scrollDirection: Axis.horizontal,
-        children: [
+        children: const [
           HomePageIetmContainer(
               text: 'القران الكريم',
               color: ColorsApp.lightBlue,

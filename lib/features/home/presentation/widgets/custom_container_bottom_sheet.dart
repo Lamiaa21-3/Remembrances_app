@@ -22,7 +22,7 @@ class CustomerBottomSheetContainer extends StatelessWidget {
             color: containercolor, borderRadius: BorderRadius.circular(14)),
         child: Row(
           children: [
-            SizedBox(
+            const SizedBox(
               width: 40,
             ),
             Center(
@@ -30,7 +30,7 @@ class CustomerBottomSheetContainer extends StatelessWidget {
               text1,
 
             )),
-            SizedBox(
+            const SizedBox(
               width: 60,
             ),
             Image.asset(image),

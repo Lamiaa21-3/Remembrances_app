@@ -62,6 +62,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "createGroup": MessageLookupByLibrary.simpleMessage("انشاء مجموعة"),
         "createaccount": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "creditCard": MessageLookupByLibrary.simpleMessage("بطاقة ائتمانية "),
+        "date": MessageLookupByLibrary.simpleMessage("12 الثلاثاء ديسمبر 2023"),
         "descriptionApplication":
             MessageLookupByLibrary.simpleMessage("وصف التطبيق"),
         "doneCorrect": MessageLookupByLibrary.simpleMessage("صحيح"),

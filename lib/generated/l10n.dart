@@ -102,6 +102,16 @@ class S {
     );
   }
 
+  /// `22222222222`
+  String get date {
+    return Intl.message(
+      '22222222222',
+      name: 'date',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `تسجيل الدخول او الاشتراك`
   String get Loginorsignup {
     return Intl.message(

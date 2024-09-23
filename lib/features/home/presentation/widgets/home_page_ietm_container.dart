@@ -32,7 +32,7 @@ class HomePageIetmContainer extends StatelessWidget {
             children: [
               Text(
                 text,
-                style: TextStyle(fontWeight: FontWeight.w500, fontSize: 18),
+                style: const TextStyle(fontWeight: FontWeight.w500, fontSize: 18),
               ),
               Image.asset(image,height: 100,fit: BoxFit.scaleDown,),
             ],

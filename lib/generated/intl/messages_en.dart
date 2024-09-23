@@ -86,6 +86,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "createnewaccount":
             MessageLookupByLibrary.simpleMessage("انشاء حساب جديد"),
         "creditCard": MessageLookupByLibrary.simpleMessage("بطاقة ائتمانية "),
+        "date": MessageLookupByLibrary.simpleMessage("22222222222"),
         "descriptionApplication":
             MessageLookupByLibrary.simpleMessage("وصف التطبيق"),
         "doneCorrect": MessageLookupByLibrary.simpleMessage("صحيح"),
