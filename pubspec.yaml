@@ -46,6 +46,7 @@ dependencies:
   flutter_tex: ^4.0.9
   pinput: null
   rename: null
+  font_awesome_flutter: ^10.7.0
 
 
 dev_dependencies:

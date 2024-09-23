@@ -50,6 +50,56 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
+  /// `12 الثلاثاء ديسمبر 2023`
+  String get mDate {
+    return Intl.message(
+      '12 الثلاثاء ديسمبر 2023',
+      name: 'mDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `الأحد ربيع الأول 1445`
+  String get hDate {
+    return Intl.message(
+      'الأحد ربيع الأول 1445',
+      name: 'hDate',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `منوعات دينية`
+  String get religious {
+    return Intl.message(
+      'منوعات دينية',
+      name: 'religious',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `مقاطع دينية متنوعة `
+  String get differentVideo {
+    return Intl.message(
+      'مقاطع دينية متنوعة ',
+      name: 'differentVideo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `المزيد`
+  String get more {
+    return Intl.message(
+      'المزيد',
+      name: 'more',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `مرحبا`
   String get welcome {
     return Intl.message(

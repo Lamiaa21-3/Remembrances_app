@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'package:qoraan_app/personalpage.dart';
 
@@ -51,7 +52,7 @@ class _RootHomePageState extends State<RootHomePage> {
       },
       items: const [
         BottomNavigationBarItem(
-            icon: Icon(Icons.mosque_outlined), label: 'الصفحة الرئيسية'),
+            icon:   FaIcon(FontAwesomeIcons.house), label: 'الصفحة الرئيسية'),
         BottomNavigationBarItem(
             icon: Icon(Icons.access_time),
             label: 'مواقيت الصلاة'),

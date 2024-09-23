@@ -25,18 +25,18 @@ class HomePageIetmContainer extends StatelessWidget {
           color: color,
           borderRadius: BorderRadius.circular(23),
         ),
-        child: Padding(
-          padding: const EdgeInsets.only(top: 12.0,left: 20),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: [
-              Text(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            Padding(
+              padding: const EdgeInsets.only(left: 20.0,top: 21),
+              child: Text(
                 text,
                 style: const TextStyle(fontWeight: FontWeight.w500, fontSize: 18),
               ),
-              Image.asset(image,height: 100,fit: BoxFit.scaleDown,),
-            ],
-          ),
+            ),
+            Center(child: Image.asset(image,height: 100,fit: BoxFit.scaleDown,)),
+          ],
         ),
       ),
     );

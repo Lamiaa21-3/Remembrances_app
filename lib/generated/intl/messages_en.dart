@@ -89,6 +89,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "date": MessageLookupByLibrary.simpleMessage("22222222222"),
         "descriptionApplication":
             MessageLookupByLibrary.simpleMessage("وصف التطبيق"),
+        "differentVideo":
+            MessageLookupByLibrary.simpleMessage("مقاطع دينية متنوعة "),
         "doneCorrect": MessageLookupByLibrary.simpleMessage("صحيح"),
         "donothaveaccountareedylogin": MessageLookupByLibrary.simpleMessage(
             "هل لديك حساب بالفعل؟ تسجيل الدخول"),
@@ -113,6 +115,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "group": MessageLookupByLibrary.simpleMessage("مجموعة"),
         "groups": MessageLookupByLibrary.simpleMessage("مجموعات"),
         "gurdation": MessageLookupByLibrary.simpleMessage("ولي الامر"),
+        "hDate": MessageLookupByLibrary.simpleMessage("الأحد ربيع الأول 1445"),
         "hadWon": MessageLookupByLibrary.simpleMessage("فاز"),
         "haveNewRecord":
             MessageLookupByLibrary.simpleMessage("لديك مكافأة جديدة"),
@@ -130,6 +133,9 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("آخر تحديث بتاريخ 12/5/2022"),
         "level": MessageLookupByLibrary.simpleMessage("المستوي"),
         "logOut": MessageLookupByLibrary.simpleMessage("تسجيل الخروج"),
+        "mDate":
+            MessageLookupByLibrary.simpleMessage("12 الثلاثاء ديسمبر 2023"),
+        "more": MessageLookupByLibrary.simpleMessage("المزيد"),
         "myCard": MessageLookupByLibrary.simpleMessage("بطاقتي"),
         "myWallet": MessageLookupByLibrary.simpleMessage("محفظتي"),
         "nameHolderCard":
@@ -158,6 +164,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "registerPoints":
             MessageLookupByLibrary.simpleMessage("لقد سجلت +89 نقطة"),
         "reject": MessageLookupByLibrary.simpleMessage("رفض"),
+        "religious": MessageLookupByLibrary.simpleMessage("منوعات دينية"),
         "reward": MessageLookupByLibrary.simpleMessage("المكافأة "),
         "riyals": MessageLookupByLibrary.simpleMessage("3 ريال"),
         "searchAboutPlayer":
