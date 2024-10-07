@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:qoraan_app/cora/utilites/colors_app.dart';
 
-import 'package:qoraan_app/cora/utilites/styles_app.dart';
 import 'package:qoraan_app/cora/utilites/widgets/custom_arabic_text.dart';
 
 import '../../../../generated/l10n.dart';
@@ -18,18 +17,7 @@ class HomePageBody extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Padding(
-            padding: const EdgeInsets.only(right: 20.0),
-            child: CustomArabicText(
-              text: S.of(context).hDate,
-              fontSize: 15,
-              fontWeight: FontWeight.w600,
-              color: ColorsApp.extraGreen,
-            ),
-          ),
-          const SizedBox(
-            height: 6,
-          ),
+
           Image.asset('assets/images/Prayer.png'),
           const SizedBox(
             height: 9,
