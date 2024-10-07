@@ -8,6 +8,6 @@ class ColorsApp {
   static const semiGreen = Color(0xFF669280);
 
   static const extraGreen = Color(0xff6D9584);
-  static const black=Color(0xff000000
-  );
+  static const black=Color(0xff000000);
+  static const grey = Color(0xffA1A1A1);
 }
